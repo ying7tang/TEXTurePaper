@@ -70,6 +70,8 @@ class GuideConfig:
     z_update_thr: float = 0.2
     # Some more strict masking for projecting back
     strict_projection: bool = True
+    # negative_prompt
+    negative_prompt: str = ''
 
 
 @dataclass

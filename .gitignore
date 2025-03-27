@@ -7,3 +7,8 @@
 data/*
 logs/*
 .idea
+
+# 主目录下的文件夹：
+cache/*
+experiments/*
+TOKEN

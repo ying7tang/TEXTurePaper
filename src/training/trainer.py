@@ -93,7 +93,7 @@ class TEXTure:
                 text = ref_text.format(d)
                 text_string.append(text)
                 logger.info(text)
-                negative_prompt = None
+                negative_prompt = self.cfg.guide.negative_prompt
                 logger.info(negative_prompt)
                 text_z.append(self.diffusion.get_text_embeds([text], negative_prompt=negative_prompt))
         return text_z, text_string

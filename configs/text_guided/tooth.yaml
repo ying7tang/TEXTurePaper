@@ -1,0 +1,11 @@
+log:
+  exp_name: tooth
+guide:
+  text: "A photo of a oral lower mandibular tooth with attached gingival tissue, {} view. The teeth are tip up, root down. "
+  # The enamel appears smooth and slightly reflective, while the gingiva shows a soft, moist appearance.
+  negative_prompt: "upper jaw, maxillary teeth, upper alveolar ridge, palate, unrealistic anatomy."
+  append_direction: True
+  shape_path: shapes/OEPN5LUR_lower_new.obj
+  background_img: textures/black_background.png
+optim:
+  seed: 720
